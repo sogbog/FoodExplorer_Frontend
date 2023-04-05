@@ -12,7 +12,7 @@ import { api } from "../../../services/api";
 
 export function PayOut(){
 
-    const {orders, setOrders, orderStatus, setOrderStatus} = useAuth()
+    const {orders, orderStatus, setOrderStatus} = useAuth()
     const [payMethod, setpayMethod] = useState("PIX")
 
     useEffect(() => {
