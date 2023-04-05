@@ -13,7 +13,7 @@ import { useAuth } from "../../../hooks/auth";
 
 export function DishView(){
 
-    const { orders, setOrders } = useAuth()
+    const { orders, setOrders, orderStatus, setOrderStatus } = useAuth()
 
     const [loading, setLoading] = useState(true)
     const [dish, setDish] = useState("")
@@ -59,18 +59,26 @@ export function DishView(){
     }
 
     function handleAddToOrder(){
-        let added = false
+        if(orderStatus == "Waiting"){
+            let added = false
 
-        orders.map(orderDish => {
-            if(dish.id == orderDish.id) {
-                orderDish.quantity += quantity
-                added = true
+            orders.map(orderDish => {
+                if(dish.id == orderDish.id) {
+                    orderDish.quantity += quantity
+                    added = true
+                }
+            })
+            
+            if(!added){
+                dish.quantity = quantity
+                setOrders(prevState => [...prevState, dish])
             }
-        })
-        
-        if(!added){
+        } else{
+            setOrders([])
+            setOrderStatus("Waiting")
+
             dish.quantity = quantity
-            setOrders(prevState => [...prevState, dish])
+            setOrders([dish])
         }
     }
 
