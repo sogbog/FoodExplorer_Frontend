@@ -21,6 +21,10 @@ Para cadastrar um usuário clique em criar conta e insira os dados requisitados.
 
 Para simular um pedido, faça login com um usuário não administrador e incluia os pratos desejados. Com pelo menos um prato no pedido, clique na aba de pedidos. Você será redirecionado à uma página com os métodos de pagamentos. Para simular o pagamento, assim que a página é carregada é iniciado um timer de 20 segundos, que, é reiniciado quando o método de pagamento muda, ou cancelado quando o método de pagamento "Crédito" é selecionado. Sendo assim, espere 20 segundos nos modos de pagamento "PIX" ou "Dinheiro" ou clique em "Finalizar pagamento" no modo "Crédito" para iniciar o fluxo de pagamento. Assim que a aparência da página mudar seu pedido já foi enviado e mais 20 segundos depois ele é entregue. Caso queira realizar outro basta adicionar qualquer prato no pedido que um novo será gerado.
 
+## Responsividade
+
+Nesse projeto utilizei o conceito Mobile First como foi ensinado no curso. Além das duas resoluções propostas nas instruções do projeto, resolvi adaptar a aplicação para todas as resoluções que o Chrome disponibiliza. Apesar da aplicação não se adaptar perfeitamente em todas essas resoluções, ela continua 100% funcional e o layout não quebra em nenhuma delas, que na minha opinião, é o mais importante.
+
 ## Rodando localmente
 
 Se você quiser baixar e executar o projeto em sua máquina,primeiro instale as dependências com
