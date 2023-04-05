@@ -1,7 +1,7 @@
 
 # Food Explorer
 
-Frontend para a aplicação Food Explorer, um cardápio digital para um restaurante fictício desenvolvido no final do curso Explorer da Rocketseat. Esse projeto foi inteiramente construído por mim, com excessão do Layout que já é disponibilizado no Figma.
+Frontend para a aplicação Food Explorer, um cardápio digital para um restaurante fictício desenvolvido no final do curso Explorer da Rocketseat. Esse projeto foi inteiramente construído por mim, com exceção do Layout que já é disponibilizado no Figma.
 
 Nessa aplicação existem dois tipos de usuários, o admin, que é aquele responsável pelo restaurante, podendo ele criar, editar pratos e categorias além de cuidar dos pedidos que são realizados pelos outros usuários, e o usuário comum, que é quem faz os pedidos.
 ## Deploy
