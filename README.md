@@ -8,7 +8,7 @@ Nessa aplicação existem dois tipos de usuários, o admin, que é aquele respon
 
 O deploy do frontend foi feito com o plano gratuito da plataforma Netlify.
 
-O deploy do backend foi feito com o plano gratuito da plataforma Render. Por ser gratuito, existem algumas limitações. Quando a API fica muito tempo sem receber requisições ela entra em modo de standby, então, quando recebe uma nova requisição ela liga novamente, mas inicia com a versão que está no repositório, com o banco de dados vazio. Isso significa que, depois de um tempo sem uso, quando usada novamente, a aplicação demora um pouco para responder, além de começar do zero, sem nada cadastrado.
+O deploy do backend foi feito com o plano gratuito da plataforma Render. Por ser gratuito, existem algumas limitações. Quando a API fica muito tempo sem receber requisições ela entra em modo de stand by, então, quando recebe uma nova requisição ela liga novamente, mas inicia com a versão que está no repositório, com o banco de dados vazio. Isso significa que, depois de um tempo sem uso, quando usada novamente, a aplicação demora um pouco para responder, além de começar do zero, sem nada cadastrado.
 
 
 🔗 Link do App: [Food Explorer](http://foodexplorer-app.netlify.app/)
