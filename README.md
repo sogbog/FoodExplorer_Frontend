@@ -27,12 +27,16 @@ Nesse projeto utilizei o conceito Mobile First como foi ensinado no curso. Além
 
 ## Screenshots
 
+Criação de um prato:
 ![Criação de um prato](https://i.imgur.com/YeKY7zE.png)
 
+Home do usuário comum:
 ![Home do usuário comum](https://i.imgur.com/149ZYKF.png)
 
+Fazendo um pedido:
 ![Fazendo um pedido](https://i.imgur.com/iH5IFGh.png)
 
+Vizualização de um prato:
 ![Vizualização de um prato](https://i.imgur.com/SXAhHMm.png)
 
 ## Rodando localmente
