@@ -6,7 +6,7 @@ Frontend para a aplicação Food Explorer, um cardápio digital para um restaura
 Nessa aplicação existem dois tipos de usuários, o admin, que é aquele responsável pelo restaurante, podendo ele criar, editar pratos e categorias além de cuidar dos pedidos que são realizados pelos outros usuários, e o usuário comum, que é quem faz os pedidos.
 ## Deploy
 
-O deploy do frontend foi feito com o plano gratuito da plataforma netlify.
+O deploy do frontend foi feito com o plano gratuito da plataforma Netlify.
 
 O deploy do backend foi feito com o plano gratuito da plataforma Render. Por ser gratuito, existem algumas limitações. Quando a API fica muito tempo sem receber requisições ela entra em modo de standby, então, quando recebe uma nova requisição ela liga novamente, mas inicia com a versão que está no repositório, com o banco de dados vazio. Isso significa que, depois de um tempo sem uso, quando usada novamente, a aplicação demora um pouco para responder, além de começar do zero, sem nada cadastrado.
 
