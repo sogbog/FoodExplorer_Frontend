@@ -27,11 +27,11 @@ Nesse projeto utilizei o conceito Mobile First como foi ensinado no curso. Além
 
 ## Tecnologias utilizadas
 
-**Front-End:** HTML, CSS, JavaScript, React.js, Vite, Styled Components
+**Front-End:** HTML, CSS, JavaScript, React.js, Vite, Styled Components, Axios
 
-**Back-End:** JavaScript, Node.js, SQL, SQLite, Knex.js
+**Back-End:** JavaScript, Node.js, SQL, SQLite, Express, Knex.js, JWT, Multer, dotenv, PM2
 
-**Conceitos importantes utilizados:** SPA, Diretrizes REST e Migrações de banco de dados
+**Conceitos importantes utilizados:** SPA, Diretrizes REST, Migrações de banco de dados, Autenticação com JWT, CORS
 
 ## Screenshots
 
