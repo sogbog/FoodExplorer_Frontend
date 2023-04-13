@@ -25,6 +25,14 @@ Para simular um pedido, faça login com um usuário não administrador e incluia
 
 Nesse projeto utilizei o conceito Mobile First como foi ensinado no curso. Além das duas resoluções propostas nas instruções do projeto, resolvi adaptar a aplicação para todas as resoluções que o Chrome disponibiliza. Apesar da aplicação não se adaptar perfeitamente em todas essas resoluções, ela continua 100% funcional e o layout não quebra em nenhuma delas, que na minha opinião, é o mais importante.
 
+## Tecnologias utilizadas
+
+**Front-End:** HTML, CSS, JavaScript, React.js, Vite, Styled Components
+
+**Back-End:** JavaScript, Node.js, SQL, SQLite, Knex.js
+
+**Conceitos importantes utilizados:** SPA, Diretrizes REST e Migrações de banco de dados
+
 ## Screenshots
 
 Criação de um prato:
