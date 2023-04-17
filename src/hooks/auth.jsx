@@ -44,16 +44,6 @@ function AuthProvider({children}){
         setFavorites(response.data)
     }
 
-    function test(testao){
-        if (testao = "memes"){
-            return theme
-        }
-
-        if (testao = "jaaj"){
-            return testero
-        }
-    }
-
     useEffect(()=> {
         const token = localStorage.getItem("@FoodExplorer:token")
         const user = localStorage.getItem("@FoodExplorer:user")
