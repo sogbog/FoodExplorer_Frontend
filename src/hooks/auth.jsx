@@ -59,8 +59,7 @@ function AuthProvider({children}){
         <AuthContext.Provider value={ {signIn, signOut, 
         user: data.user, 
         favorites, setFavorites, fetchFavorites,
-        orders, setOrders, orderStatus, setOrderStatus,
-        test}}>
+        orders, setOrders, orderStatus, setOrderStatus}}>
             {children}
         </AuthContext.Provider>
     )
